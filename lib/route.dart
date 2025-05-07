@@ -15,7 +15,7 @@ class Routes {
             create: (context) => sl<LoginCubit>(),
             child: const LoginScreen(),
           ),
-      '/home': (context) => const HomeScreen(),
+      '/home': (context) => HomeScreen(),
     };
   }
 }
