@@ -23,7 +23,7 @@ class _SplashScreenState extends State<SplashScreen>
       Navigator.pushNamedAndRemoveUntil(
         // ignore: use_build_context_synchronously
         context,
-        '/home',
+        '/login',
         (Route<dynamic> route) => false,
       );
     });
